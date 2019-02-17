@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03BEB716CD01E64C522BE233 /* Pods_SecureCards.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA13BA98401C4C38F27A722F /* Pods_SecureCards.framework */; };
+		D3C00C8C1EC97FDE00426F1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C00C8B1EC97FDE00426F1C /* AppDelegate.swift */; };
+		D3C00C8E1EC97FDE00426F1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C00C8D1EC97FDE00426F1C /* ViewController.swift */; };
+		D3C00C911EC97FDE00426F1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3C00C8F1EC97FDE00426F1C /* Main.storyboard */; };
+		D3C00C941EC97FDE00426F1C /* SecureCards.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D3C00C921EC97FDE00426F1C /* SecureCards.xcdatamodeld */; };
+		D3C00C961EC97FDE00426F1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3C00C951EC97FDE00426F1C /* Assets.xcassets */; };
+		D3C00C991EC97FDE00426F1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3C00C971EC97FDE00426F1C /* LaunchScreen.storyboard */; };
+		D3C00CA31ECC62AE00426F1C /* biometricicon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D3C00CA11ECC62AE00426F1C /* biometricicon.jpg */; };
+		D3C00CA41ECC62AE00426F1C /* plus_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D3C00CA21ECC62AE00426F1C /* plus_icon.png */; };
+		D3C014C91ECECFCC00E32059 /* AddUpdatedCardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C014C81ECECFCC00E32059 /* AddUpdatedCardVC.swift */; };
+		D3C014CB1ECED61B00E32059 /* copyicon.png in Resources */ = {isa = PBXBuildFile; fileRef = D3C014CA1ECED61B00E32059 /* copyicon.png */; };
+		D3C014CD1ED1E58900E32059 /* GlobleClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C014CC1ED1E58900E32059 /* GlobleClass.swift */; };
+		D3C41CD81ED2F3330064B20E /* LockScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C41CD71ED2F3330064B20E /* LockScreen.swift */; };
+		D3C41CDA1ED2F45D0064B20E /* lock.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3C41CD91ED2F45D0064B20E /* lock.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05C6BEF9709203A177EAEDA8 /* Pods-SecureCards.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecureCards.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SecureCards/Pods-SecureCards.debug.xcconfig"; sourceTree = "<group>"; };
+		1D2F7F440281267412059C64 /* Pods-SecureCards.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecureCards.release.xcconfig"; path = "Pods/Target Support Files/Pods-SecureCards/Pods-SecureCards.release.xcconfig"; sourceTree = "<group>"; };
+		BA13BA98401C4C38F27A722F /* Pods_SecureCards.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SecureCards.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3C00C881EC97FDE00426F1C /* SecureCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecureCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3C00C8B1EC97FDE00426F1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D3C00C8D1EC97FDE00426F1C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D3C00C901EC97FDE00426F1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3C00C931EC97FDE00426F1C /* SecureCards.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SecureCards.xcdatamodel; sourceTree = "<group>"; };
+		D3C00C951EC97FDE00426F1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3C00C981EC97FDE00426F1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3C00C9A1EC97FDE00426F1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3C00CA11ECC62AE00426F1C /* biometricicon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = biometricicon.jpg; sourceTree = "<group>"; };
+		D3C00CA21ECC62AE00426F1C /* plus_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus_icon.png; sourceTree = "<group>"; };
+		D3C014C81ECECFCC00E32059 /* AddUpdatedCardVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddUpdatedCardVC.swift; sourceTree = "<group>"; };
+		D3C014CA1ECED61B00E32059 /* copyicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = copyicon.png; sourceTree = "<group>"; };
+		D3C014CC1ED1E58900E32059 /* GlobleClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobleClass.swift; sourceTree = "<group>"; };
+		D3C41CD71ED2F3330064B20E /* LockScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LockScreen.swift; sourceTree = "<group>"; };
+		D3C41CD91ED2F45D0064B20E /* lock.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = lock.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3C00C851EC97FDE00426F1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03BEB716CD01E64C522BE233 /* Pods_SecureCards.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21208053A0EDF2BC6E5411CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				05C6BEF9709203A177EAEDA8 /* Pods-SecureCards.debug.xcconfig */,
+				1D2F7F440281267412059C64 /* Pods-SecureCards.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CD3DE25262B7A0E00A3063E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA13BA98401C4C38F27A722F /* Pods_SecureCards.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3C00C7F1EC97FDE00426F1C = {
+			isa = PBXGroup;
+			children = (
+				D3C00C8A1EC97FDE00426F1C /* SecureCards */,
+				D3C00C891EC97FDE00426F1C /* Products */,
+				21208053A0EDF2BC6E5411CE /* Pods */,
+				CD3DE25262B7A0E00A3063E4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D3C00C891EC97FDE00426F1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3C00C881EC97FDE00426F1C /* SecureCards.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3C00C8A1EC97FDE00426F1C /* SecureCards */ = {
+			isa = PBXGroup;
+			children = (
+				D3C00CA01ECC629700426F1C /* Images */,
+				D3C00C8B1EC97FDE00426F1C /* AppDelegate.swift */,
+				D3C41CD71ED2F3330064B20E /* LockScreen.swift */,
+				D3C41CD91ED2F45D0064B20E /* lock.xib */,
+				D3C014CC1ED1E58900E32059 /* GlobleClass.swift */,
+				D3C00C8D1EC97FDE00426F1C /* ViewController.swift */,
+				D3C014C81ECECFCC00E32059 /* AddUpdatedCardVC.swift */,
+				D3C00C8F1EC97FDE00426F1C /* Main.storyboard */,
+				D3C00C951EC97FDE00426F1C /* Assets.xcassets */,
+				D3C00C971EC97FDE00426F1C /* LaunchScreen.storyboard */,
+				D3C00C9A1EC97FDE00426F1C /* Info.plist */,
+				D3C00C921EC97FDE00426F1C /* SecureCards.xcdatamodeld */,
+			);
+			path = SecureCards;
+			sourceTree = "<group>";
+		};
+		D3C00CA01ECC629700426F1C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D3C00CA11ECC62AE00426F1C /* biometricicon.jpg */,
+				D3C00CA21ECC62AE00426F1C /* plus_icon.png */,
+				D3C014CA1ECED61B00E32059 /* copyicon.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3C00C871EC97FDE00426F1C /* SecureCards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3C00C9D1EC97FDE00426F1C /* Build configuration list for PBXNativeTarget "SecureCards" */;
+			buildPhases = (
+				A2A5A983F610EB51373CEE01 /* [CP] Check Pods Manifest.lock */,
+				D3C00C841EC97FDE00426F1C /* Sources */,
+				D3C00C851EC97FDE00426F1C /* Frameworks */,
+				D3C00C861EC97FDE00426F1C /* Resources */,
+				16E5FBF0E36B07E0878695EE /* [CP] Embed Pods Frameworks */,
+				98E7FADD6C3D00E67F938B31 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SecureCards;
+			productName = SecureCards;
+			productReference = D3C00C881EC97FDE00426F1C /* SecureCards.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3C00C801EC97FDE00426F1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Harendra Sharma";
+				TargetAttributes = {
+					D3C00C871EC97FDE00426F1C = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = ECKDBXPUEV;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D3C00C831EC97FDE00426F1C /* Build configuration list for PBXProject "SecureCards" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3C00C7F1EC97FDE00426F1C;
+			productRefGroup = D3C00C891EC97FDE00426F1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3C00C871EC97FDE00426F1C /* SecureCards */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3C00C861EC97FDE00426F1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3C00C991EC97FDE00426F1C /* LaunchScreen.storyboard in Resources */,
+				D3C014CB1ECED61B00E32059 /* copyicon.png in Resources */,
+				D3C41CDA1ED2F45D0064B20E /* lock.xib in Resources */,
+				D3C00C961EC97FDE00426F1C /* Assets.xcassets in Resources */,
+				D3C00C911EC97FDE00426F1C /* Main.storyboard in Resources */,
+				D3C00CA31ECC62AE00426F1C /* biometricicon.jpg in Resources */,
+				D3C00CA41ECC62AE00426F1C /* plus_icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16E5FBF0E36B07E0878695EE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SecureCards/Pods-SecureCards-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98E7FADD6C3D00E67F938B31 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SecureCards/Pods-SecureCards-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2A5A983F610EB51373CEE01 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3C00C841EC97FDE00426F1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3C014C91ECECFCC00E32059 /* AddUpdatedCardVC.swift in Sources */,
+				D3C00C8E1EC97FDE00426F1C /* ViewController.swift in Sources */,
+				D3C00C941EC97FDE00426F1C /* SecureCards.xcdatamodeld in Sources */,
+				D3C00C8C1EC97FDE00426F1C /* AppDelegate.swift in Sources */,
+				D3C41CD81ED2F3330064B20E /* LockScreen.swift in Sources */,
+				D3C014CD1ED1E58900E32059 /* GlobleClass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D3C00C8F1EC97FDE00426F1C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3C00C901EC97FDE00426F1C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3C00C971EC97FDE00426F1C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3C00C981EC97FDE00426F1C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3C00C9B1EC97FDE00426F1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3C00C9C1EC97FDE00426F1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3C00C9E1EC97FDE00426F1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05C6BEF9709203A177EAEDA8 /* Pods-SecureCards.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ECKDBXPUEV;
+				INFOPLIST_FILE = SecureCards/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.harendra.SecureCardsCoreData;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D3C00C9F1EC97FDE00426F1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D2F7F440281267412059C64 /* Pods-SecureCards.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ECKDBXPUEV;
+				INFOPLIST_FILE = SecureCards/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.harendra.SecureCardsCoreData;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3C00C831EC97FDE00426F1C /* Build configuration list for PBXProject "SecureCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3C00C9B1EC97FDE00426F1C /* Debug */,
+				D3C00C9C1EC97FDE00426F1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3C00C9D1EC97FDE00426F1C /* Build configuration list for PBXNativeTarget "SecureCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3C00C9E1EC97FDE00426F1C /* Debug */,
+				D3C00C9F1EC97FDE00426F1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D3C00C921EC97FDE00426F1C /* SecureCards.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D3C00C931EC97FDE00426F1C /* SecureCards.xcdatamodel */,
+			);
+			currentVersion = D3C00C931EC97FDE00426F1C /* SecureCards.xcdatamodel */;
+			path = SecureCards.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D3C00C801EC97FDE00426F1C /* Project object */;
+}
